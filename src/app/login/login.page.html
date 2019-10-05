@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar color="light">
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<br/>
+
+<ion-content padding>
+
+  <!--Grid IONIC -->
+  <ion-row>
+    <ion-col>
+      <!-- ... -->
+    </ion-col>
+    <ion-col size="7">
+      <ion-img class="logo" src="../assets/imagens/ruthCoiffeur.png"></ion-img>
+    </ion-col>
+    <ion-col>
+      <!-- ... -->
+    </ion-col>
+  </ion-row>
+
+  <!--<h2 class="ruthCoiffeur" text-center ion-text color="primary">Ruth coiffeur</h2>-->
+  
+  <ion-list>
+
+      <ion-item>
+        <ion-label position="floating" color="primary">Email</ion-label>
+        <ion-input type="text" [(ngModel)]="email"></ion-input> <!--  -->
+      </ion-item>
+    
+      <ion-item>
+        <ion-label position="floating" color="primary">Password</ion-label>
+        <ion-input type="password" [(ngModel)]="senha"></ion-input><!--  -->
+      </ion-item>
+      
+      <br/>
+
+      <div class="linkCriaUmaConta">
+        <ion-button color="primary" size="small" (click)="login()">Entrar</ion-button><!--  -->
+
+      <br/><br/>
+
+      <h6 text-center>Não tem conta?</h6>
+      
+        <ion-button color="primary" size="small" (click)="linkCriaUmaConta()">Crie uma!</ion-button>
+      </div>
+    </ion-list>
+
+  <!--<button ion-button secondary menuToggle>Toggle Menu</button>-->
+
+</ion-content>

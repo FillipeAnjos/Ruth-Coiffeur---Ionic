@@ -1,0 +1,71 @@
+<ion-header>
+  <ion-toolbar color="light">
+
+    <ion-title>Ajuda</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <h3>Ajuda</h3>
+  
+  <div *ngIf="redeInternet == 1">
+    <ion-button (click)="loginPageTeste()">LoginPage Teste</ion-button>
+    <br/>
+    <!--<ion-button (click)="categotiaTeste()">Categoria Teste</ion-button>
+    <br/>-->
+    <ion-button (click)="loading()">Loading Teste</ion-button>
+
+  </div>
+
+
+
+
+  
+  
+
+
+  <div *ngIf="redeInternet == 0">
+    <ion-row>
+      <ion-col size="4">
+        <!-- -->
+      </ion-col>
+      <ion-col size="4">
+        <img src="../../assets/icon/redeOff.png" class="imgRedeOff">
+      </ion-col>
+      <ion-col size="4">
+        <!-- -->
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="3">
+        
+      </ion-col>
+      <ion-col size="6">
+        <h3>Sem conexão</h3>
+        <p class="textoConexao">Verifique sua conexão com a internet.</p>
+      </ion-col>
+      <ion-col size="3">
+        
+      </ion-col>
+    </ion-row>
+  </div>
+
+
+
+
+<!--
+  <div class="usuario">
+    <p class="p">ID: {{usuario.id}}</p>
+    <p class="p">Nome: {{usuario.nome}}</p>
+    <p class="p">Email: {{usuario.email}}</p>
+    <p class="p">ID Google: {{usuario.idgoogle}}</p>
+    <p class="p">Status: {{usuario.status}}</p>
+    <img [src]="usuario.foto" alt="">
+  </div>
+-->
+  
+
+
+</ion-content>

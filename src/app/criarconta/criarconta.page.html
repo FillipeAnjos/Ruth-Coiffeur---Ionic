@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar color="light">
+    <ion-title>Criar Conta</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+
+    <h2 text-center class="titleRuthCoiffeur">Ruth Coiffeur</h2>
+
+    <ion-item>
+      <ion-label position="floating" color="primary">Email</ion-label>
+      <ion-input type="text" [(ngModel)]="email"></ion-input> <!--  -->
+    </ion-item>
+  
+    <ion-item>
+      <ion-label position="floating" color="primary">Password</ion-label>
+      <ion-input type="password" [(ngModel)]="senha"></ion-input><!--  -->
+    </ion-item>
+    
+    <br/>
+
+    <div class="linkCriaUmaConta">
+      <ion-button color="primary" size="small" (click)="criarConta()">Criar Conta</ion-button><!--  --> 
+    </div>
+
+  </ion-list>
+
+</ion-content>

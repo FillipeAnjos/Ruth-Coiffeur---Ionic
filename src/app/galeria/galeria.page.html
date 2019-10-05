@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar color="light">
+    
+    <!-- buttons abaixo é para voltar na pagina anterior -->
+    <ion-buttons slot="start">
+        <ion-back-button defaultHref="/"></ion-back-button>
+      </ion-buttons>
+
+    <ion-title>Galeria</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <!--<h1>Aqui está o ID: {{id}}</h1>-->
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" *ngFor="let imagem of imagens; index as i">
+        <img src="assets/imagens/galeria/{{imagem}}" alt="" (click)="verImagem(i)">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+</ion-content>

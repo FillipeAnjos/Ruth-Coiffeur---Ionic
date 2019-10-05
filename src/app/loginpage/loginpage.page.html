@@ -1,0 +1,80 @@
+<ion-header>
+  <ion-toolbar color="light">
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="bg-image">
+
+  <h1>Ruth <span>Coiffeur</span></h1>
+
+  <ion-list class="list">
+
+      <!-- User -->
+      <ion-row align-items-center>
+        <ion-col size="2">
+            <ion-icon name="person" style="color: white; width: 50px; height: 30px;"></ion-icon>
+        </ion-col>
+        <ion-col size="10">
+            <ion-input type="text" placeholder="Nome" style="color: white"></ion-input> 
+        </ion-col>
+      </ion-row>
+      
+      <!-- Email -->
+      <ion-row align-items-center>
+        <ion-col size="2">
+            <ion-icon name="mail" style="color: white; width: 50px; height: 30px;"></ion-icon>
+        </ion-col>
+        <ion-col size="10">
+            <ion-input type="text" placeholder="E-mail" style="color: white"></ion-input> 
+        </ion-col>
+      </ion-row>
+
+      <!-- Senha -->
+      <ion-row align-items-center>
+          <ion-col size="2">
+              <ion-icon name="lock" style="color: white; width: 50px; height: 30px;"></ion-icon>
+          </ion-col>
+          <ion-col size="10">
+              <ion-input type="password" placeholder="Senha" style="color: white"></ion-input> 
+          </ion-col>
+        </ion-row>
+
+      <!-- Entrar -->
+      <ion-row align-items-center>
+        <ion-col size="12">
+            <div class="botaoEntrar"><ion-button size="small">Entrar</ion-button></div> 
+        </ion-col>
+      </ion-row>
+
+      <!-- Criar Conta -->
+      <ion-row align-items-center>
+        <ion-col size="0">
+            
+        </ion-col>
+        <ion-col size="12">
+            <ion-button expand="block">Criar Conta</ion-button>
+        </ion-col>
+      </ion-row>
+      
+      <!-- Botão de Login - Google -->
+      <ion-button ion-button icon-left (click)="login()" block outline color="danger" expand="block">
+        <ion-icon name="logo-googleplus"></ion-icon>
+        &nbsp;Login Google
+      </ion-button>
+
+      <br/>
+    <!--
+      <div class="usuario">
+        <p class="p">ID: {{usuario.id}}</p>
+        <p class="p">Nome: {{usuario.nome}}</p>
+        <p class="p">Email: {{usuario.email}}</p>
+        <p class="p">ID Google: {{usuario.idgoogle}}</p>
+        <p class="p">Status: {{usuario.status}}</p>
+        <img [src]="usuario.foto" alt="">
+      </div>
+    -->
+
+  </ion-list>
+
+</ion-content>

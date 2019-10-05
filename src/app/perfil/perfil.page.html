@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar color="light">
+    <ion-title>Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="bodyPerfil">
+
+
+<div class="meusDados">
+  
+  <ion-row (click)="meusDados()">
+    <ion-col size="1">
+      <ion-icon name="person"></ion-icon>
+    </ion-col>
+    <ion-col size="10">
+      Meus Dados
+    </ion-col>
+    <ion-col size="1">
+      <ion-icon name="create"></ion-icon>
+    </ion-col>
+  </ion-row>
+
+</div>
+
+<div class="meusDadosImg">
+  <img src="../../assets/imagens/fotoPagePerfil2.png" alt="" class="fotoPagePerfil">
+</div>
+
+<div class="meusDados">
+
+  <ion-row>
+    <ion-col size="12">
+      <div text-center (click)="logout()">SAIR</div>
+    </ion-col>
+  </ion-row>
+
+</div>
+
+
+
+
+
+ <!-- Botão de Agendamento -->
+ <ion-fab vertical="bottom" horizontal="end" slot="fixed" (click)="agendar()">
+  <ion-fab-button>
+    <ion-icon name="add"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
+
+
+</ion-content>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "461311874726",
+    "firebase_url": "https://fillipe-anjos.firebaseio.com",
+    "project_id": "fillipe-anjos",
+    "storage_bucket": "fillipe-anjos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461311874726:android:764d2cb7da3280eb",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461311874726-75jgulbl5ig6snmokdvs9j5lk1vj67c1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.ionic.starter",
+            "certificate_hash": "ea3386eb31d72f5738d79e7667b3e560c98e5f21"
+          }
+        },
+        {
+          "client_id": "461311874726-9tfr5n4oepp28lrnpfjhge1jkvr9i6sr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzR2EQpI8GC1cbunqoHZ06hEejsehcNvQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461311874726-9tfr5n4oepp28lrnpfjhge1jkvr9i6sr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
